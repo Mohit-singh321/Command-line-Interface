@@ -1,2 +1,21 @@
-# Command-line-Interface
-A CLI is a text-based interface where you interact with a program or OS by typing commands.  It doesn’t have graphics — everything is entered as text and output is shown as text.  The shell is one type of CLI.
+My Custom Shell
+
+This is a simple custom shell program written in C. It supports basic command execution like ls, cd, mkdir, etc., and can run any executable available in your system’s PATH.
+
+How to Compile
+   gcc shell.c -o my_shell
+
+How to Run
+  ./my_shell
+
+
+#Once started, type commands just like you would in a normal terminal.\
+
+#Example:
+
+  ls -l 
+  cd /path/to/directory
+  mkdir test_folder
+
+Exit the Shell
+contrl+D(EOF) / cntrl+C(Terminate Process)
